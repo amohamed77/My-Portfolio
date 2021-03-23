@@ -1,0 +1,97 @@
+/* General Stylez */
+:root {
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+    --tertiary-color: #1d8896;
+    --primary-font: 'Arvo', serif,'Bebas Neue', cursive;
+}
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--primary-font);
+}
+
+/* header styling */
+header {
+    padding: 35px 35px 20px 0px;
+    background: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    font-size: 40px;
+    padding: 5px 50px;
+    font-family: var(--primary-font);
+    border-radius: 25px;
+    margin: 0px 30px;
+}
+
+header nav {
+    margin: 15px;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 5px;
+}
+
+header nav ul li a {
+    font-size: 20px;
+    padding: 5px 10px;
+    font-family: var(--primary-font);
+    border-radius: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
