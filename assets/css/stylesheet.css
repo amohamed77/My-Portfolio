@@ -93,6 +93,139 @@ main {
     line-height: 1.5;
 }
 
+/* Projects */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-title {
+    width: 25%;
+    font-size: 50px;
+    text-align: center;
+    padding-right: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family:var(--primary-font); 
+    border-radius: 15px;
+    color: var(--secondary-color);
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content p {
+    width: 70%;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: var(--primary-font);
+    color: var(--secondary-color);
+    display: inline-block;
+}
+
+
+/* projects styling*/
+.project-trio {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+article {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+
+.project-image {
+    border: 4px solid var(--primary-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: var(--tertiary-color);
+}
+
+.projectpics{
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.projectpics:hover {
+    opacity: 1;
+}
+
+.description {
+    position: absolute;
+    width: 100px;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background: var(--primary-color);
+    border-radius: 0 15px 15px 0;
+    text-align: left;
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+}
+
+.description h3 {
+    font-size: 14px;
+}
+
+.description p {
+    font-size: 8px;  
+}
+
+/* contact me */
+.contact {
+    font-size: 20px;
+    padding: 5px 10px;
+    font-family: var(--primary-font);
+    border-bottom: 5px  var(--primary-color);
+    border-radius: 15px;
+    border-style: solid bottom;
+}
+
+.contact a {
+    padding: 15px;
+    border-radius: 25px;
+    
+}
+
+
+/* footer styling */
+footer {
+    height: 50px;
+    border-top: 4px solid var(--quaternary-color);
+    background: var(--tertiary-color);
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
