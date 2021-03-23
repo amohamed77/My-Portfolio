@@ -55,7 +55,43 @@ header nav ul li a {
     
 }
 
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    border-bottom: 5px outset var(--primary-color);
+}
 
+/* Main Section */
+
+/* Background image  */
+main {
+    background-image: url(../images/background\ 2.jpg);
+}
+/* About me section */
+
+.container p {
+    font-family: var(--primary-font);
+    width: 70%;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.selfie {
+    background-size: cover;
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    border-style: solid;
+}
+
+.container p {
+    font-family: var(--primary-font);
+    width: 70%;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
 
 
 
